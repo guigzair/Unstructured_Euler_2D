@@ -7,12 +7,12 @@ The project is a a 2D solver of the Euler Equations on a unstructured mesh at th
 Given the Euler Equations:
 $$\partial_t \begin{pmatrix}
 \rho \\
-\rho \bar{u} \\
+\rho \textbf{u} \\
 \rho E
-\end{pmatrix} + \bar{\nabla} .\begin{pmatrix}
-\rho \bar{u} \\
-\rho \bar{u} \otimes \bar{u} + P \bar{\bar{I}} \\
- (\rho E + P)\bar{u}
+\end{pmatrix} + \textbf{\nabla} .\begin{pmatrix}
+\rho \textbf{u} \\
+\rho \textbf{u} \otimes \textbf{u} + P I \\
+ (\rho E + P)\textbf{u}
 \end{pmatrix} = 0$$ 
 With $E = e + \frac{1}{2}u^2$ and $e = \dfrac{P}{\rho (\gamma - 1)}$
 
