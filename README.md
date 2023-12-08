@@ -5,15 +5,9 @@
 
 The project is a a 2D solver of the Euler Equations on a unstructured mesh at the first order.
 Given the Euler Equations:
-$$\partial_t \begin{pmatrix}
-\rho \\
-\rho u \\
-\rho E
-\end{pmatrix} + \nabla .\begin{pmatrix}
-\rho u \\
-\rho u \otimes u + P I \\
- (\rho E + P)u
-\end{pmatrix} = 0$$ 
+![plot](./image.png)
+
+
 With $E = e + \frac{1}{2}u^2$ and $e = \dfrac{P}{\rho (\gamma - 1)}$
 
 
