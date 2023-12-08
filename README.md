@@ -9,7 +9,7 @@ $$\partial_t \begin{pmatrix}
 \rho \\
 \rho u \\
 \rho E
-\end{pmatrix} + \textbf{\nabla} .\begin{pmatrix}
+\end{pmatrix} + \nabla .\begin{pmatrix}
 \rho u \\
 \rho u \otimes u + P I \\
  (\rho E + P)u
